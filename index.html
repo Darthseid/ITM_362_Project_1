@@ -6,9 +6,22 @@
     <title>title</title>
   </head>
   <body>
-<form action="#" method="get" id="login" onsubmit="confirmSubmit()">
-          <fieldset>
-		  
+<form action="#" method="get" id="login" onsubmit="confirmSubmit()"> <!--The submission actually won't go anywhere. It will just reset the page. -->
+          <fieldset> <!--This groups together all the forms -->
+			            <label for="first_name">First Name: </label>
+						                <input type="text" name="first_name" id="first" value="" placeholder="First Name" required> <!-- required means it has to be filled out -->
+										<label for="last_name">Last Name: </label>
+  <input type="text" name="last_name" id="last_name" value="" placeholder="Last Name" required>
+    <label for="email">Email: </label>
+	 <input type="email" name="email" id="EMAIL" value="" placeholder="username@example.com" required> 
+	           <label for="password">Password </label>
+			      <input type="password" name="password" id="confidential" value="" placeholder="Password" required> <!-- no actual encryption -->
+				  <label for="phone">Phone:</label>
+				   <input type="tel" name="phone" id="phone" value="" placeholder="555-555-5555" required> <!-- 555 is a fictional phone number. -->
+				   <label for="date">Date of Birth:</label>
+				    <input type="text" name="date" id="DOB" value="" placeholder="MM/DD/YYYY" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" title="MM/DD/YYYY" required> <!--Pattern is for non-supporting browsers -->
+         <input type="submit" value="Submit" id="submission">
 		  </fieldset>
+ </form>
   </body>
 </html>
