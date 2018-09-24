@@ -1,3 +1,20 @@
-// Mobile first
-{  
+body 
+{
+   background-image: url("../Image/Purged.png");
+}
+
+@media screen and (max-width: 1024px) 
+{
+	label 
+	{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 960px) 
+{
+  input
+	{
+    width: 100%;
+  }
 }
