@@ -1,14 +1,15 @@
-function Submissioncomplete(evt)
-{
-  var fullname = document.getElementById("first_name");
+
+  function confirmSubmit(evt)
+  {
+  var fullname = document.getElementById("firstname");
   var button = document.getElementById('submission');
 
-  button.onclick = function() 
+  button.onclick = function()
   {
-    modal.style.display = "block";
+    style.display = "block";
   }
+  alert("Thanks " + firstname.value + " for joining us");
   }
-  alert("Congratulations " + firstname.value + " welcome to the Purge.");
   
   var Indexed = 1;
 showSlides(slideIndex);
