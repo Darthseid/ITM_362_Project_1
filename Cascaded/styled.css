@@ -18,3 +18,92 @@ body
     width: 100%;
   }
 }
+
+* {box-sizing:border-box}
+
+.slideshow 
+{
+  max-width: 100em;
+  position: relative;
+  margin: auto;
+}
+
+.gallery 
+{
+    display: none;
+}
+.previous, .next_one 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -2%;
+  padding: 3%;
+  color: white;
+  font-weight: bold;
+  font-size: 3.6em;
+  transition: 0.6s ease;
+  border-radius: 0 0.5% 0.5% 0;
+}
+
+.next 
+{
+  right: 0;
+  border-radius: 0.3% 0 0 0.3%;
+}
+
+.previous:hover, .next_one:hover 
+{
+  background-color: rgba(255,255,255,0.8);
+}
+
+.texting
+ {
+  color: #c2c2c2;
+  font-size: 1.5em;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext 
+{
+  color: #a2a2a2;
+  position: absolute;
+}
+
+.dot 
+{
+  cursor: pointer;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover 
+{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade 
+{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
