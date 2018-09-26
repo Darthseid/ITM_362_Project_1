@@ -1,13 +1,30 @@
 body 
 {
    background-image: url("../Image/Purged.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label 
+  {
+        color:white;
+    }
+}
+h1 
+  {
+        color:#abcdef;
+    }
+}
+p 
+  {
+        color:#aabb0c;
+    }
 }
 
 @media screen and (max-width: 1024px) 
 {
 	label 
 	{
-        color: white;
+        font-size: 2em;
     }
 }
 
@@ -18,3 +35,54 @@ body
     width: 100%;
   }
 }
+
+.slideshow-main 
+{
+  max-width: 62em;
+  position: relative;
+  margin: auto;
+}
+
+.letters
+{
+  color: #ff8272;
+  font-size: 1.75em;
+  position: absolute;
+  bottom: -11.25%;
+  font-family: Comic Sans MS, serif;
+  width: 99%;
+  text-align: center;
+  padding: 0.3em;
+}
+
+.circles
+{
+
+  cursor: crosshair;
+  height: 1.33em;
+  width: 1.30em;
+  margin: 0% 0.19%;
+  background-color: #11ffff;
+  border-radius: 48%;
+  display: inline-block;
+  transition: background-color 0.7s ease;
+}
+
+.activated
+{
+ background-color: #133000;
+}
+
+.fadeaway 
+{
+    display: none;
+  animation-name: slideshow_fadeaway;
+  animation-duration: 1.3s;
+}
+
+@keyframes fadeaway 
+{
+   from {opacity: .3} 
+  to {opacity: 1}
+}
+
