@@ -1,24 +1,20 @@
-body 
-{
-   background-image: url("../Image/Purged.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 label 
   {
         color:white;
     }
-}
-h1 
+h1
   {
-        color:#abcdef;
+    font-size: 3em;
+        color:green;
+        font-family: 'K2D', sans-serif;
     }
-}
-p 
+  p 
   {
-        color:#aabb0c;
+        color:blue;
+        font-family: 'K2D', sans-serif;
+        font-size: 1.25em;
     }
-}
 
 @media screen and (max-width: 1024px) 
 {
@@ -26,14 +22,29 @@ p
 	{
         font-size: 2em;
     }
-}
-
-@media screen and (max-width: 960px) 
-{
-  input
-	{
+      input
+  {
     width: 100%;
   }
+}
+
+@media screen and (min-width: 700px) 
+{
+ body 
+ {
+   background-image: url("../Image/Purged.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+}
+
+@media screen and (max-width: 699px) 
+{
+ body 
+ {
+   background-image: url("../Image/first_purge.jpg");
+    background-size: cover;
+ }
 }
 
 .slideshow-main 
