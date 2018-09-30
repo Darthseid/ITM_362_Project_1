@@ -16,7 +16,6 @@
   </header>
     <main>
     	 <img src="Image/kukri.jpg" width="400" height="500" alt="Machete">
-    	  <div class = "readable">
         <h1>The Unofficial Purge Online Game</h1>
          <img src="Image/Rifle.jpg" width="300" height="400" alt="Ak-47">
   <p> Tired of watching the films and want to get on the visceral action of The Purge? Sign up and play now at our massive-multiplayer-online-roleplaying game where
@@ -25,75 +24,37 @@
  You can spend the day stocking up on equipment and shelter, and once night hits; you can either defend yourself against the unruly horde or join in the carnage!
   </p>
           <h1>Play Now!</h1>
-      </div>
-          <div class="slideshow-main">
-<div class="sliding fadeaway">
-<img class="show" src="Image/slides/bulletin.jpg" alt="ingame">
-  <div class="letters"> Fight for fun!</div>
+<div id="slideshow">
+   <div class = slided>
+     <img src="Image/slides/bulletin.jpg">
+   </div>
+   <div class = "slided">
+     <img src="Image/slides/riot.jpg">
+   </div>
+    <div class = "slided">
+     <img src="Image/slides/stranged.jpg">
+   </div>
+   <div class = "slidetext">
+     Pretty cool eh? This slide is proof the content can be anything.
+   </div>
 </div>
-
-<div class="sliding fadeaway">
- <img class="show" src="media/slides/riot" alt="Anarchy">
-  <div class="letters">Destroy what you want!</div>
-</div>
-<div class="sliding fadeaway">
-<img class="show" src="media/slides/stranged.jpg" alt="Strangers">
-  <div class="letters">Dress up and blow things up!</div>
-</div>
-	</div>
 <form action="#" method="get" id="login" onsubmit="confirmSubmit()"> <!--The submission actually won't go anywhere. It will just reset the page. -->
           <fieldset> <!--This groups together all the forms -->
-		  <div class="vert">
-              <div class="hori">
 			            <label>First Name: </label>
-						</div>
-						 <div class="zontal">
-						                <input type="text" name="first_name" id="first" value="" placeholder="First Name" required> <!-- required means it has to be filled out -->
-										</div>
-									</div>
-										  <div class="vert">
-              <div class="hori">
+						                <input type="text" name="first_name" id="first" value="" placeholder="First Name" required> <!-- required means it has to be filled out -->									  
 										<label>Last Name: </label>
-										</div>
-									<div class="zontal">
-  <input type="text" name="last_name" id="last_name" value="" placeholder="Last Name" required>
-				</div>
-			</div>
-				<div class="vert">
-              <div class="hori">
+									
+  <input type="text" name="last_name" id="last_name" value="" placeholder="Last Name" required>		
     <label>Email: </label>
-	</div>
-	<div class="zontal">
 	 <input type="email" name="email" id="EMAIL" value="" placeholder="username@example.com" required> 
-				</div>
-			</div>
-			<div class="vert">
-              <div class="hori">
+		
 	           <label>Password </label>
-			   </div>
-			   <div class="zontal">
 			      <input type="password" name="password" id="confidential" value="" placeholder="Password" required> <!-- no actual encryption -->
-				  </div>
-			</div>
-			<div class="vert">
-              <div class="hori">
 				  <label>Phone:</label>
-				  </div>
-				     <div class="zontal">
-				   <input type="tel" name="phone" id="phone" value="" placeholder="555-555-5555" required> <!-- 555 is a fictional phone number. -->
-				   	  </div>
-			</div>
-			<div class="vert">
-              <div class="hori">
+				  <input type="tel" name="phone" id="phone" value="" placeholder="555-555-5555" required> <!-- 555 is a fictional phone number. -->
 				   <label>Date of Birth:</label>
-				   </div>
-				        <div class="zontal">
-				    <input type="text" name="date" id="DOB" value="" placeholder="MM/DD/YYYY" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" title="MM/DD/YYYY" required> <!--Pattern is for non-supporting browsers -->
-						  </div>
-			</div>
-			<div class="rowed">
+				    <input type="text" name="date" id="DOB" value="" placeholder="MM/DD/YYYY" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" title="MM/DD
          <input type="submit" value="Submit" id="submission">
-		 </div>
 		  </fieldset>
  </form>
   </main>
