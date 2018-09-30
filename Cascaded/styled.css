@@ -51,7 +51,7 @@ h1
     width: 30px; 
     height: 25px; 
     padding: 2px; 
-    box-shadow: 1 1 1px rgba(1,1,1,0.4); 
+    box-shadow: 0 0 1px rgba(1,1,1,0.4); 
 }
 
 #slideshow > div 
