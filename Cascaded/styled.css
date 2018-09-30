@@ -3,6 +3,10 @@ label
   {
         color:white;
     }
+ input
+ {
+    width: 100%;
+}
 h1
   {
     font-size: 3em;
@@ -22,12 +26,7 @@ h1
 	{
         font-size: 2em;
     }
-      input
-  {
-    width: 100%;
-  }
 }
-
 @media screen and (min-width: 700px) 
 {
  body 
@@ -37,7 +36,6 @@ h1
     background-size: cover;
  }
 }
-
 @media screen and (max-width: 699px) 
 {
  body 
@@ -45,23 +43,18 @@ h1
    background-image: url("../Image/first_purge.jpg");
     background-size: cover;
  }
-
 }
 #slideshow 
 { 
-    margin: 40px auto; 
+    margin: 4px auto; 
     position: relative; 
-    width: 220px; 
-    height: 210px; 
-    padding: 15px; 
-    box-shadow: 0 0 25px rgba(1,2,3,0.4); 
+    width: 30px; 
+    height: 25px; 
+    padding: 2px; 
+    box-shadow: 1 1 1px rgba(1,1,1,0.4); 
 }
 
 #slideshow > div 
 { 
-    position: absolute; 
-    top: 11px; 
-    left: 12px; 
-    right: 13px; 
-    bottom: 14px; 
+    position: absolute;  
 }
