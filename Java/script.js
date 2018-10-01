@@ -1,3 +1,9 @@
+jQuery(function($) 
+{
+  $('html').removeClass('nojs');
+  $('html').addClass('hasjs');
+});
+
 $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() 
@@ -9,3 +15,4 @@ setInterval(function()
     .end()
     .appendTo('#slideshow');
 },  3000);
+
