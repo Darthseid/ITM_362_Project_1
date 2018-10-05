@@ -1,0 +1,4 @@
+This project has taught me the difference between what is ideal and what is practical. I technically achieved everything I set out
+to do with this project, but it came out a lot different than what I was expecting. I used Javascript and CSS and even learned
+some jquery on the way, but I still feel like my website is missing some pizazz that makes it stand out. I felt the same way about
+other assignments in this class.
