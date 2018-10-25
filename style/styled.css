@@ -1,0 +1,60 @@
+
+label 
+  {
+        color:white;
+    }
+ input
+ {
+    width: 100%;
+}
+h1
+  {
+    font-size: 3em;
+        color:green;
+        font-family: 'K2D', sans-serif;
+    }
+  p 
+  {
+        color:blue;
+        font-family: 'K2D', sans-serif;
+        font-size: 1.25em;
+    }
+
+@media screen and (max-width: 1024px) 
+{
+	label 
+	{
+        font-size: 2em;
+    }
+}
+@media screen and (min-width: 700px) 
+{
+ body 
+ {
+   background-image: url("../Image/Purged.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+}
+@media screen and (max-width: 699px) 
+{
+ body 
+ {
+   background-image: url("../Image/first_purge.jpg");
+    background-size: cover;
+ }
+}
+#slideshow 
+{ 
+    margin: 4px auto; 
+    position: relative; 
+    width: 30px; 
+    height: 25px; 
+    padding: 2px; 
+    box-shadow: 0 0 1px rgba(1,1,1,0.4); 
+}
+
+#slideshow > div 
+{ 
+    position: absolute;  
+}
