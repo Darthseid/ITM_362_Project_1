@@ -44,7 +44,7 @@ h1
     background-size: cover;
  }
 }
-#slideshow 
+.slideshow 
 { 
     margin: 4px auto; 
     position: relative; 
@@ -54,7 +54,7 @@ h1
     box-shadow: 0 0 1px rgba(1,1,1,0.4); 
 }
 
-#slideshow > div 
+.slideshow > div 
 { 
     position: absolute;  
 }
