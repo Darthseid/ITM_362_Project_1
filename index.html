@@ -42,16 +42,14 @@
      <img src="image/slides/stranged.jpg" width="900" height="650" alt = "Strangers">
    </div>
 </div>
-<form action="#" method="get" id="login" onsubmit="confirmSubmit()"> <!--The submission actually won't go anywhere. It will just reset the page. -->
+<form action="#" method="get" id="login" onsubmit="confirmSubmit()" autocomplete=”on”> <!--The submission actually won't go anywhere. It will just reset the page. -->
           <fieldset> <!--This groups together all the forms -->
 			            <label>First Name: </label>
 						                <input type="text" name="first_name" id="first" value="" placeholder="First Name" required> <!-- required means it has to be filled out -->									  
-										<label>Last Name: </label>
-									
+										<label>Last Name: </label>							
   <input type="text" name="last_name" id="last_name" value="" placeholder="Last Name" required>		
     <label>Email: </label>
-	 <input type="email" name="email" id="EMAIL" value="" placeholder="username@example.com" required> 
-		
+	 <input type="email" name="email" id="EMAIL" value="" placeholder="username@example.com" required> 		
 	           <label>Password </label>
 			      <input type="password" name="password" id="confidential" value="" placeholder="Password" required> <!-- no actual encryption -->
 				  <label>Phone:</label>
