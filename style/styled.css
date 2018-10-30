@@ -1,60 +1,108 @@
-
 label 
   {
         color:white;
-    }
+  }
  input
- {
+  {
     width: 100%;
-}
+  }
 h1
   {
-    font-size: 3em;
+    font-size: 4em;
         color:green;
-        font-family: 'K2D', sans-serif;
-    }
+        font-family: 'K2D', Arial, sans-serif;
+	    line-height: 1.5; //perfect fifth modular scale.
+  }
   p 
   {
-        color:blue;
-        font-family: 'K2D', sans-serif;
-        font-size: 1.25em;
-    }
-
-@media screen and (max-width: 1024px) 
-{
-	label 
-	{
-        font-size: 2em;
-    }
-}
+        color:red;
+        font-family: 'K2D', Arial, sans-serif;
+        font-size: 2.25em;
+	     line-height: 1.5; //perfect fifth modular scale.
+  }
 @media screen and (min-width: 700px) 
-{
+  {
  body 
- {
+    {
    background-image: url("../Image/Purged.png");
     background-repeat: no-repeat;
     background-size: cover;
- }
+    }
 }
 @media screen and (max-width: 699px) 
-{
+  {
  body 
- {
+    {
    background-image: url("../Image/first_purge.jpg");
     background-size: cover;
- }
+    }
 }
-#slideshow 
-{ 
+.slideshow 
+  { 
     margin: 4px auto; 
     position: relative; 
     width: 30px; 
     height: 25px; 
     padding: 2px; 
     box-shadow: 0 0 1px rgba(1,1,1,0.4); 
-}
-
-#slideshow > div 
-{ 
+  }
+.slideshow > div 
+  { 
     position: absolute;  
-}
+  }
+#first_slide
+  {
+	width="900" height="650" //This is how to center an object in CSS.
+	display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#second_slide
+  {
+	width="900" height="650"
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#third_slide
+  {
+	width="900" height="650" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#closer
+  {
+	width="800" height="550" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#loot
+  {
+	width="900" height="650" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#kukri
+  {
+	width="400" height="500" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+#rifle
+  {
+	width="300" height="400" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
