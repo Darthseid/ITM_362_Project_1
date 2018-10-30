@@ -15,7 +15,7 @@ h1
     }
   p 
   {
-        color:blue;
+        color:red;
         font-family: 'K2D', Arial, sans-serif;
         font-size: 1.25em;
     }
@@ -61,32 +61,60 @@ h1
 
 #first_slide
 {
-	width="900" height="650" 
+	width="900" height="650" //This is how to center an object in CSS.
+	display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #second_slide
 {
 	width="900" height="650"
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
 #third_slide
 {
 	width="900" height="650" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #closer
 {
 	width="900" height="650" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #loot
 {
 	width="900" height="650" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #kukri
 {
 	width="400" height="500" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 #rifle
 {
 	width="300" height="400" 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
