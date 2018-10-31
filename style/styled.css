@@ -22,61 +22,16 @@ h1
   }
 @media screen and (min-width: 700px) 
   {
- body 
-    {
-   background-image: url("images/Purged.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+ body {background-color: coral;}
 }
 @media screen and (max-width: 699px) 
   {
  body 
-    {
-   background-image: url("images/first_purge.jpg");
-    background-size: cover;
-    }
+body {background-color: black;}
 }
-.slideshow 
-  { 
-    margin: 4px auto; 
-    position: relative; 
-    width: 30px; 
-    height: 25px; 
-    padding: 2px; 
-    box-shadow: 0 0 1px rgba(1,1,1,0.4); 
-  }
-.slideshow > div 
-  { 
-    position: absolute;  
-  }
-#first_slide
-  {
-	width: 900px; 
-	height: 650px; /*This is how to center an object in CSS.*/
-	display: block; 
-    margin-left: auto;
-    margin-right: auto;
-  }
-#second_slide
-  {
-	width: 900px; 
-	height: 650px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-#third_slide
-  {
-	width: 900px; 
-	height: 650px; 
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 #closer
   {
-	width: 800px;
+	width: 35%; 
 	height: 550px;
 	display: block;
     margin-left: auto;
@@ -84,7 +39,7 @@ h1
   }
 #loot
   {
-	width: 900px; 
+	width: 45%;  
 	height: 650px;
 	display: block;
     margin-left: auto;
@@ -92,7 +47,7 @@ h1
   }
 #kukri
   {
-	width: 400px; 
+	width: 20%; 
 	height: 500px;
 	display: block;
     margin-left: auto;
@@ -101,7 +56,7 @@ h1
   }
 #rifle
   {
-	width: 300px; 
+	width: 15%;  
 	height: 400px;
 	display: block;
     margin-left: auto;
