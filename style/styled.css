@@ -24,7 +24,7 @@ h1
   {
  body 
     {
-   background-image: url("../Image/Purged.png");
+   background-image: url("images/Purged.png");
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -33,7 +33,7 @@ h1
   {
  body 
     {
-   background-image: url("../images/first_purge.jpg");
+   background-image: url("images/first_purge.jpg");
     background-size: cover;
     }
 }
