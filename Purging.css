@@ -1,0 +1,50 @@
+label 
+  {
+        color:white;
+  }
+ input
+  {
+    width: 100%;
+  }
+  h1
+  {
+    font-size: 5em;
+        color:green;
+        font-family: Calibri, Arial, sans-serif;
+	    line-height: 1.5; /*perfect fifth modular scale. */
+  }
+   p 
+  {
+        color:red;
+        font-family: Calibri, Arial, sans-serif;
+        font-size: 1.25em;
+	     line-height: 1.5; /*perfect fifth modular scale.*/
+  }
+ /* @media screen and (min-width: 700px) 
+  {
+ body {background-color: coral;}
+} */
+
+body 
+{
+	background-color: black;
+	  background-image: url("https://github.com/Darthseid/ITM_362_Project_1/blob/master/images/first_purge.jpg?raw=true");	
+    background-size: cover;
+}
+
+#closer
+  {
+
+  }
+#loot
+  {
+
+  }
+#kukri
+  {
+	
+  }
+#rifle
+  {
+	
+  }
